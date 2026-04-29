@@ -7,13 +7,13 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
-    { name: "3D Printing", href: "#3d-printing" },
-    { name: "Movies & Craft", href: "#movies-craft" },
-    { name: "Event Management", href: "#event-management" },
-    { name: "Portfolio", href: "#portfolio" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "Home", href: "/" },
+    { name: "3D Printing", href: "/#3d-printing" },
+    { name: "Movies & Craft", href: "/movies-craft" },
+    { name: "Event Management", href: "/event-management" },
+    { name: "Portfolio", href: "/#portfolio" },
+    { name: "About", href: "/about" },
+    { name: "Contact", href: "/#contact" },
   ];
 
   return (
@@ -22,9 +22,9 @@ export default function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold tracking-tight text-white">
+            <Link href="/" className="text-2xl font-bold tracking-tight text-white">
               OSR<span className="text-primary">Arts</span>
-            </span>
+            </Link>
           </div>
 
           {/* Desktop Menu */}
@@ -34,7 +34,7 @@ export default function Navbar() {
                 {link.name}
               </Link>
             ))}
-            <Link href="#shop" className="px-4 py-1.5 rounded-full border border-gray-500 text-xs font-medium text-white hover:bg-white/10 transition-colors">
+            <Link href="/shop" className="px-4 py-1.5 rounded-full border border-gray-500 text-xs font-medium text-white hover:bg-white/10 transition-colors">
               Shop
             </Link>
           </div>
@@ -56,7 +56,7 @@ export default function Navbar() {
               {link.name}
             </Link>
           ))}
-          <Link href="#shop" onClick={() => setIsOpen(false)} className="inline-block px-4 py-2 rounded-full border border-gray-500 text-sm font-medium text-white w-fit">
+          <Link href="/shop" onClick={() => setIsOpen(false)} className="inline-block px-4 py-2 rounded-full border border-gray-500 text-sm font-medium text-white w-fit">
             Shop
           </Link>
         </div>
