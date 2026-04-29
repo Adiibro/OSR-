@@ -54,6 +54,8 @@ export default function EventManagementPage() {
                 muted 
                 loop 
                 playsInline
+                preload="auto"
+                poster="/events/recep[tion.jpg"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -73,6 +75,8 @@ export default function EventManagementPage() {
               muted 
               loop 
               playsInline
+              preload="auto"
+              poster="/events/sangeet.jpg"
               className="w-full h-full object-cover"
             />
           </div>
