@@ -8,7 +8,7 @@ export default function Navbar() {
 
   const navLinks = [
     { name: "Home", href: "/" },
-    { name: "3D Printing", href: "/#3d-printing" },
+    { name: "3D Printing", href: "/3d-printing" },
     { name: "Movies & Craft", href: "/movies-craft" },
     { name: "Event Management", href: "/event-management" },
     { name: "Portfolio", href: "/#portfolio" },
