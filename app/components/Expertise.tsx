@@ -6,22 +6,26 @@ export default function Expertise() {
     {
       icon: <GlassWater className="w-8 h-8 text-primary" />,
       title: "Event Management",
-      description: "Corporate gatherings, private celebrations, weddings, and themed events executed with precision and flair."
+      description: "Corporate gatherings, private celebrations, weddings, and themed events executed with precision and flair.",
+      href: "/event-management"
     },
     {
       icon: <Clapperboard className="w-8 h-8 text-primary" />,
       title: "Film Production Support",
-      description: "Comprehensive support for movie sets, background elements, custom props, and large-scale set design."
+      description: "Comprehensive support for movie sets, background elements, custom props, and large-scale set design.",
+      href: "/movies-craft"
     },
     {
       icon: <Cuboid className="w-8 h-8 text-primary" />,
       title: "3D Printing",
-      description: "Custom 3D-printing, from drafting design with your ideas and blending into final product with our team."
+      description: "Custom 3D-printing, from drafting design with your ideas and blending into final product with our team.",
+      href: "/3d-printing"
     },
     {
       icon: <Warehouse className="w-8 h-8 text-primary" />,
       title: "Studio Supply",
-      description: "Reliable asset provision and support services for major film studios and private productions."
+      description: "Reliable asset provision and support services for major film studios and private productions.",
+      href: "/3d-printing"
     }
   ];
 
@@ -43,7 +47,7 @@ export default function Expertise() {
               <p className="text-gray-600 text-sm leading-relaxed mb-8 flex-grow">
                 {item.description}
               </p>
-              <Link href="#" className="inline-flex items-center text-primary hover:text-primary-hover text-sm font-semibold transition-colors mt-auto">
+              <Link href={item.href} className="inline-flex items-center text-primary hover:text-primary-hover text-sm font-semibold transition-colors mt-auto">
                 Learn More
                 <ArrowRight className="w-4 h-4 ml-1" />
               </Link>

@@ -7,19 +7,22 @@ export default function Services() {
       title: "3D Printing Services",
       description: "High-precision additive manufacturing for prototypes, cinematic props, and custom components with rapid turnaround.",
       linkText: "Explore 3D Printing",
-      image: "https://images.pexels.com/photos/3862632/pexels-photo-3862632.jpeg"
+      image: "https://images.pexels.com/photos/3862632/pexels-photo-3862632.jpeg",
+      href: "/3d-printing"
     },
     {
       title: "Modeling Services",
       description: "Detailed scale models, architectural maquettes, and creative conceptual models for film and event pre-visualization.",
       linkText: "View Modeling",
-      image: "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg"
+      image: "https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg",
+      href: "/movies-craft"
     },
     {
       title: "Event Management Services",
       description: "End-to-end event planning, production design, and flawless execution for corporate, cultural, and private celebrations.",
       linkText: "Plan Your Event",
-      image: "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg"
+      image: "https://images.pexels.com/photos/169198/pexels-photo-169198.jpeg",
+      href: "/event-management"
     }
   ];
 
@@ -45,7 +48,7 @@ export default function Services() {
                 <p className="text-gray-500 text-sm md:text-base leading-relaxed mb-8 flex-grow">
                   {service.description}
                 </p>
-                <Link href="#" className="inline-flex items-center text-primary hover:text-primary-hover text-sm font-semibold transition-colors group mt-auto">
+                <Link href={service.href} className="inline-flex items-center text-primary hover:text-primary-hover text-sm font-semibold transition-colors group mt-auto">
                   <span className="underline decoration-2 underline-offset-4">{service.linkText}</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
                 </Link>

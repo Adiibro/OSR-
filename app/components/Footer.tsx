@@ -34,13 +34,13 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Quick Links</h4>
             <ul className="space-y-3">
-              <li><Link href="#home" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Home</Link></li>
-              <li><Link href="#3d-printing" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">3D Printing</Link></li>
-              <li><Link href="#movies-craft" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Movies &amp; Craft</Link></li>
-              <li><Link href="#event-management" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Event Management</Link></li>
-              <li><Link href="#portfolio" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Portfolio</Link></li>
-              <li><Link href="#about" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">About</Link></li>
-              <li><Link href="#contact" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Contact</Link></li>
+              <li><Link href="/" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Home</Link></li>
+              <li><Link href="/3d-printing" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">3D Printing</Link></li>
+              <li><Link href="/movies-craft" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Movies &amp; Craft</Link></li>
+              <li><Link href="/event-management" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Event Management</Link></li>
+              <li><Link href="/#portfolio" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Portfolio</Link></li>
+              <li><Link href="/about" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">About</Link></li>
+              <li><Link href="/#contact" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Contact</Link></li>
             </ul>
           </div>
 
@@ -48,11 +48,11 @@ export default function Footer() {
           <div>
             <h4 className="text-white font-semibold mb-6">Services</h4>
             <ul className="space-y-3">
-              <li><Link href="#" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Event Management</Link></li>
-              <li><Link href="#" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Film Production Support</Link></li>
-              <li><Link href="#" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Crafts &amp; Decor</Link></li>
-              <li><Link href="#" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Studio Supply</Link></li>
-              <li><Link href="#" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">3D Printing &amp; Modeling</Link></li>
+              <li><Link href="/event-management" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Event Management</Link></li>
+              <li><Link href="/movies-craft" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Film Production Support</Link></li>
+              <li><Link href="/movies-craft" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Crafts &amp; Decor</Link></li>
+              <li><Link href="/3d-printing" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">Studio Supply</Link></li>
+              <li><Link href="/3d-printing" className="text-gray-400 hover:text-[#f59e0b] transition-colors text-sm">3D Printing &amp; Modeling</Link></li>
             </ul>
           </div>
 

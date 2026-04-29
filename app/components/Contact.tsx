@@ -21,16 +21,21 @@ export default function Contact() {
           Let&apos;s discuss how OSR Arts can support your next film production or event.
         </p>
 
-        <Link href="#" className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide transition-colors inline-flex items-center shadow-lg hover:shadow-xl mb-12 uppercase">
+        <a 
+          href="https://wa.me/919391136604?text=Hello OSR Arts, I would like to inquire about a Custom Design setup." 
+          target="_blank" 
+          rel="noreferrer" 
+          className="bg-primary hover:bg-primary-hover text-white px-8 py-4 rounded-full font-bold text-sm tracking-wide transition-colors inline-flex items-center shadow-lg hover:shadow-xl mb-12 uppercase"
+        >
           Contact for custom design <ArrowRight className="w-4 h-4 ml-2" />
-        </Link>
+        </a>
 
         <div className="flex flex-col md:flex-row items-center justify-center gap-4 md:gap-8 text-sm text-gray-300 font-medium">
           <span>Aziznagar Hyderabad</span>
           <span className="hidden md:inline text-gray-500">|</span>
-          <span>+91 9666006123</span>
+          <span>+91 9391136604</span>
           <span className="hidden md:inline text-gray-500">|</span>
-          <span>info@osrarts.com</span>
+          <span>ssevents77@gmail.com</span>
         </div>
       </div>
     </section>
