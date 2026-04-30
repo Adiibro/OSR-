@@ -240,7 +240,7 @@ export default function AboutPage() {
                 </div>
                 <div>
                   <h4 className="text-[10px] font-bold tracking-widest text-gray-400 uppercase mb-1">Email</h4>
-                  <a href="mailto:ssevents77@gmail.com" className="text-xs font-bold text-gray-800 hover:text-[#D91627]">ssevents77@gmail.com</a>
+                  <a href="mailto:osrevents77@gmail.com" className="text-xs font-bold text-gray-800 hover:text-[#D91627]">osrevents77@gmail.com</a>
                 </div>
                 <div>
                   <h4 className="text-[10px] font-bold tracking-widest text-gray-400 uppercase mb-1">Location</h4>

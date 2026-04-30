@@ -35,7 +35,7 @@ export default function Contact() {
           <span className="hidden md:inline text-gray-500">|</span>
           <span>+91 9391136604</span>
           <span className="hidden md:inline text-gray-500">|</span>
-          <span>ssevents77@gmail.com</span>
+          <span>osrevents77@gmail.com</span>
         </div>
       </div>
     </section>
